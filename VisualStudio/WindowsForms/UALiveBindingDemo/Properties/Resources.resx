@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Form1_automaticSubscriptionLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>If you have not done so yet, drag the UAConnectivity component from the Toolbox to the form (this is a common step for all binding tasks). 
+
+Use the "Bind to Point" command on the target control, and select the source OPC-UA server and OPC node. 
+
+That's it. You can verify the result immediately, without recompiling your application, by using the "Design Online" command on the BindingExtender component.</value>
+  </data>
+  <data name="Form1_automaticReadLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On a PointBinder, edit the BindingGroups collection, "Add" a new binding group, set its AutoRead property to True, and make sure that its AutoSubscribe property is set to False. 
+
+On a TextBox, use "Bind to Point" command and select the OPC-UA node you want to read. Then, use the "Edit Live Bindings" command, and set the BindingGroup property of the data binding to the binding group you have created earlier. The Read operation is automatically executed for all data bindings in this group when the form loads.</value>
+  </data>
+  <data name="Form1_readOnCustomEventLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On a TextBox, use "Bind to Point" command and select the OPC-UA node you want to read (alternatively, use  "Edit Live Bindings" command, "Add" a PointBinding, and configure its EndpointDescriptor and NodeDescriptor). 
+
+Then, use the "Edit Live Bindings" command, and for BindingOperations property, leave just Read checked (and uncheck the Subscribe). In order to have the Read invoked when the button is pressed, set the ReadEventSource.SourceComponent to the Button control; the SourceMember of the ReadEventSource will be automatically set to the Click event. This causes the Click on the button execute the Read operation, i.e. obtain the OPC-UA node value and store it into the TextBox. 
+
+Note: In order to read multiple nodes at once on a custom event, it is suggested that you set up a binding group under the PointBinder, assign the bindings to the group, and link the ReadEventSource just once, on the binding group. </value>
+  </data>
+  <data name="Form1_errorProviderLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>Drag the ErrorProvider extender (standard Microsoft component) from the toolbox to the form. Configure the binding in a usual way. 
+
+Then, use the "Edit Live Bindings" command, "Clone" the existing binding, and change the cloned binding as follows: Set the ArgumentsPath to ErrorMessage. Set the ValueTarget.ExtenderProvider to the ErrorProvider component on your form, and set the ValueTarget.TargetMember to the Error member. All in all, this will cause the error message from the OPC-UA be stored into the error text displayed by the ErrorProvider for the control. 
+
+Note: If you configure this with explicit Read or Write operations (not with Subscription), you need to set up a binding group, assign related bindings to the same group, and have the operation invoked on a binding group.
+</value>
+  </data>
+  <data name="Form1_stringFormattingLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>Bind the OPC-UA node to the TextBox or similar control as usually. 
+
+Then, use the "Edit Live Bindings" command on the control, and set the StringFormat property on the data binding as needed, using all standard .NET formatting capabilities. {0} in the formatting string represents the value to be formatted. For example, {0:F3} means a floating point value formatted with 3 decimal places.</value>
+  </data>
+  <data name="Form1_changeBackgroundLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>Drag the StatusToColorConverter component from the toolbox to the form. Bind the OPC-UA data to your control as usually. 
+
+Then, use the "Edit Live Bindings" command, "Clone" the existing binding, and change the cloned binding as follows: Set the ArgumentsPath to StatusInfo. Set the ValueTarget.TargetMember to the BackColor (or other suitable) property of your control, and for the Converter property, select the StatusToColorConverter you have placed to the form earlier. This will cause the status information from the OPC-UA data be converted to one of configurable colors, and change the background color of the control appropriately. </value>
+  </data>
+  <data name="Form1_bindingKindsLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>Bind the OPC-UA data to your control as usually. 
+
+Then, use the "Edit Live Bindings" command on the control, and for the ArgumentsPath property, select the kind of binding you want. </value>
+  </data>
+  <data name="Form1_extendersLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>Drag the ToolTip extender (standard Microsoft component), or other extender provider you need, from the toolbox to the form. Configure the binding in a usual way. 
+Then, use the "Edit Live Bindings" command, "Clone" the existing binding, and change the cloned binding as follows: Set the ValueTarget.ExtenderProvider to the ToolTip (extender provider) component on your form, and set the ValueTarget.TargetMember to the Tooltip member. Set the ArgumentsPath to AttributeData (or SourceTimestamp, ServerTimestamp, StatusCode, or whatever you'll want to be displayed in the tooltip). This will cause the additional information from the OPC-UA be displayed by the ToolTip extender provider for the control. </value>
+  </data>
+  <data name="Form1_subscribeAndWriteLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On the target control, use "Bind to Point" command and select the OPC-UA node you want to bind to. 
+Then, use the "Edit Live Bindings" command, and for BindingOperations property, add a check next to the Write operation. In order to have the Write invoked when the control changes, set the WriteEventSource.SourceComponent to your control; the SourceMember of the WriteEventSource will be automatically determined, but you can change it, if you want to link to a different event. 
+
+Note: Some controls or OPC-UA servers will require you to set the ValueTypeCode (under the WriteParameters property) so that the OPC-UA value type matches the type of the target property. </value>
+  </data>
+  <data name="Form1_writeSingleLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On a TextBox, use "Bind to Point" command and select the OPC-UA node want to write.
+ 
+Then, use the "Edit Live Bindings" command, and for the BindingOperations options, select only "Write". In order to have the Write invoked when the button is pressed, set the WriteEventSource.SourceComponent to the Button control; the SourceMember of the WriteEventSource will be automatically set to the Click event. This causes the Click on the button execute the Write operation, i.e. obtain the value from the control and Write it into the OPC-UA node.</value>
+  </data>
+  <data name="Form1_writeGroupLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On a PointBinder, edit the BindingGroups collection, "Add" a new binding group, set its AutoSubscribe property to False, and set its WriteEventSource.SourceComponent to the button that should invoke the Write. 
+
+On each of the value controls involved, use "Bind to Point" command and select the OPC-UA node you want to write. Then, use the "Edit Live Bindings" command, and for the BindingOperations options, select only "Write". Also, set the BindingGroup property of the data binding to the binding group you have created earlier. The Write operation will be executed for all data bindings in this group when the button is clicked.</value>
+  </data>
+  <data name="Form1_displayWriteErrorsLinkLabel_LinkClicked_HelpText" xml:space="preserve">
+    <value>On a PointBinder, edit the BindingGroups collection, "Add" a new binding group, set its AutoSubscribe property to False, and set its WriteEventSource.SourceComponent to the button that should invoke the Write. 
+
+Drag the ErrorProvider extender (standard Microsoft component) from the toolbox to the form. 
+Configure the binding in a usual way. Use the "Edit Live Bindings" command, and for the BindingOperations options, select only "Write", and set the BindingGroup property of the item binding to the binding group you have created earlier. Then, "Clone" the existing binding, and change the cloned binding as follows: Set the ArgumentsPath to ErrorMessage. Set the ValueTarget.ExtenderProvider to the ErrorProvider component on your form, and set the ValueTarget.TargetMember to the Error member. This will cause the error message from the OPC-UA be stored into the error text displayed by the ErrorProvider for the control. 
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EasyUAClient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EasyUAClient.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

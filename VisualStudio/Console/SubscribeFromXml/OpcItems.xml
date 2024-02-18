@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file specifies the OPC items to be subscribed to, and their associated state objects (integers, in this case). -->
+<ArrayOfDAItemGroupArguments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DAItemGroupArguments>
+    <State xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.OperationModel">
+      <TypeFullName xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">System.Int32</TypeFullName>
+      <Instance xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">1</Instance>
+    </State>
+    <ServerDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <UrlString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib">opcda:OPCLabs.KitServer.2</UrlString>
+    </ServerDescriptor>
+    <ItemDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <NodeId xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc">Simulation.Random</NodeId>
+    </ItemDescriptor>
+    <GroupParameters xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <RequestedUpdateRate xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess">1000</RequestedUpdateRate>
+      <PercentDeadband xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess">0.0</PercentDeadband>
+    </GroupParameters>
+  </DAItemGroupArguments>
+  <DAItemGroupArguments>
+    <State xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.OperationModel">
+      <TypeFullName xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">System.Int32</TypeFullName>
+      <Instance xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">2</Instance>
+    </State>
+    <ServerDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <UrlString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib">opcda:OPCLabs.KitServer.2</UrlString>
+    </ServerDescriptor>
+    <ItemDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <NodeId xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc">Simulation.Ramp (10 s)</NodeId>
+    </ItemDescriptor>
+    <GroupParameters xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess.OperationModel">
+      <RequestedUpdateRate xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess">1000</RequestedUpdateRate>
+      <PercentDeadband xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.DataAccess">0.0</PercentDeadband>
+    </GroupParameters>
+  </DAItemGroupArguments>
+</ArrayOfDAItemGroupArguments>

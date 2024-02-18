@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file specifies the OPC items to be subscribed to, and their associated state objects (integers, in this case). -->
+<ArrayOfUAMonitoredItemArguments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UAMonitoredItemArguments>
+    <State xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.OperationModel">
+      <TypeFullName xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">System.Int32</TypeFullName>
+      <Instance xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">1</Instance>
+    </State>
+    <EndpointDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <UrlString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib">opc.tcp://opcua.demo-this.com:51210/UA/SampleServer</UrlString>
+    </EndpointDescriptor>
+    <NodeDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <NodeId xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA">
+        <NamespaceUriString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">http://test.org/UA/Data/</NamespaceUriString>
+        <NodeIdType xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">Numeric</NodeIdType>
+        <NumericIdentifier xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">10849</NumericIdentifier>
+      </NodeId>  
+    </NodeDescriptor>
+    <MonitoringParameters xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <SamplingInterval xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA">1000</SamplingInterval>
+    </MonitoringParameters>
+  </UAMonitoredItemArguments>
+  <UAMonitoredItemArguments>
+    <State xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.OperationModel">
+      <TypeFullName xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">System.Int32</TypeFullName>
+      <Instance xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib.Xml">2</Instance>
+    </State>
+    <EndpointDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <UrlString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.BaseLib">opc.tcp://opcua.demo-this.com:51210/UA/SampleServer</UrlString>
+    </EndpointDescriptor>
+    <NodeDescriptor xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <NodeId xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA">
+        <NamespaceUriString xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">http://test.org/UA/Data/</NamespaceUriString>
+        <NodeIdType xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">Numeric</NodeIdType>
+        <NumericIdentifier xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.AddressSpace">10853</NumericIdentifier>
+      </NodeId>
+    </NodeDescriptor>
+    <MonitoringParameters xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA.OperationModel">
+      <SamplingInterval xmlns="http://schemas.datacontract.org/2004/07/OpcLabs.EasyOpc.UA">1000</SamplingInterval>
+    </MonitoringParameters>
+  </UAMonitoredItemArguments>
+</ArrayOfUAMonitoredItemArguments>
